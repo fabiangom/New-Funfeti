@@ -1,0 +1,38 @@
+.Header {
+  background-color: #222;
+  color: white;
+}
+
+.Header-logo {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.Header-logo img {
+  animation: App-logo-spin infinite 20s linear;
+  height: 50px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.Menu {
+  display: flex;
+	list-style: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.Menu ul {
+  margin: 0;
+  padding: 0;
+	list-style: none;
+}
+
+.Menu li {
+  padding-right: 10px;
+	display: inline-block;
+}

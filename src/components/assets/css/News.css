@@ -1,0 +1,23 @@
+.News {
+	width: 100%;
+	text-align: center;
+	align-items: center;
+	padding: 10px;
+}
+
+.Tarjetas {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.card {
+	width: 18rem;
+	margin-bottom: 10px;
+}
+
+.card-text li {
+	list-style: none;
+	text-align: left;
+}
